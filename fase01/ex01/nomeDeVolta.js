@@ -4,5 +4,5 @@ function mostrarNome() {
 
 function nomeDeVolta() {
     mostrarNome();
-    console.log("O andróide paranóide");
+    return "O andrÃ³ide paranÃ³ide";
 }
