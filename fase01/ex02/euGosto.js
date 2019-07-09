@@ -1,3 +1,4 @@
 function euGosto(x) {
-    console.log("Eu gosto de " + x);
+    return "Eu gosto de " + x;
 }
+
