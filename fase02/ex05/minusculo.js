@@ -1,8 +1,7 @@
 function minuscula(minuscula) {
     
-    primeiras = minuscula.substr(0, 3);
-    ultimas = minuscula.substring(3 ,);
+    primeiras = minuscula.substr(0, 1);
+    ultimas = minuscula.substring(1 ,);
     return primeiras.toLowerCase() + ultimas;
 }
-
 
