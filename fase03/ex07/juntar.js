@@ -1,4 +1,4 @@
 function juntar(um , dois) {
-    return um + "" + dois;
+    int = parseInt(um + "" + dois);
+    return int 
 }
-
