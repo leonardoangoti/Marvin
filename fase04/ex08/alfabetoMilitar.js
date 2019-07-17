@@ -14,4 +14,3 @@ function alfabetoMilitar(x) {
        }
 }
 
-console.log(alfabetoMilitar("a"));
