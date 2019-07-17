@@ -1,6 +1,6 @@
 function alfabetoMilitar(x) {
        if (x == "a" || x == "A") {
-           return "alfa";
+           return "alpha";
        } else if (x == "e" || x == "E") {
            return "echo";
        } else if (x == "i" || x == "I") {
