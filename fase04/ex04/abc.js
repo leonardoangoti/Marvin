@@ -6,9 +6,9 @@ function abc(x){
             p == "b"|| p == "B" || 
             p == "c"|| p == "C" ) {
         
-        return "true";
+        return true;
         
     } else {
-        return "false";
+        return false;
     }
 }
