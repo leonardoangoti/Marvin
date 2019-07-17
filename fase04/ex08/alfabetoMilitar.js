@@ -10,7 +10,7 @@ function alfabetoMilitar(x) {
        } else if (x == "u" || x == "U") {
            return "uniform";
        } else {
-           return "false";
+           return false;
        }
 }
 
