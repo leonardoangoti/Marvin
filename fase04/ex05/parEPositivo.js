@@ -5,9 +5,9 @@ function parEPositivo(x) {
         if(y == 1 || y == 0) {
         return "Sim";
         } else if (y == -1 || y == -0) {
-            return "NÃ£o";
+            return "Não";
         }
     } else {
-        return "NÃ£o"
+        return "Não"
     }
 }
