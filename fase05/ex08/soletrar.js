@@ -1,15 +1,11 @@
-function soletrar(a) {
-    var tamanho = a.length;
-    var contador = 0;
-    var str = "";
-    var x = "";
-    while(contador < tamanho) {
-        str = a[contador];
-        x += str.toString();
-        contador++;
+function soletrar(array) {
+    var elementos = array.length;
+    var novaList = [];
+    for (var a = 0; a < elementos; a++){
+        novaList.push(array.substr(a,1));
     }
-    
-    return x;
+    return novaList;
 }
+
 
 
