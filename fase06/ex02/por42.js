@@ -2,6 +2,7 @@ function por42(x, y) {
     var min, max;
     var contador = 0;
     var a = [];
+    var n = 0;
     
     if(x < y){
         min = x;
@@ -12,8 +13,12 @@ function por42(x, y) {
     }
     
     while (min <= max) {
-        if (min == 84) {
-            return 84;
+        console.log(min % 42);
+        if (min % 42 == 0) {
+            n++;
+            if (n == 2) {
+                return min;
+            }
         }
         min++;
     }
