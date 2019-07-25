@@ -1,16 +1,14 @@
 function booleanos(a){
         
-    var contador = 0;
-    console.log("Tamanho do array " + a.length);
-    while (contador < a.length) {
-        console.log("Possição do array: " + a[contador].toString());
-        if (a[contador].toString() == "true" || a[contador].toString() == "false"){
+    var contador = a.length -1;
+    while (contador >= 0) {
+        var x = a[contador];
+        if (x.toString() == "true" || x.toString() == "false"){
             a.splice(contador, 1);   
         }
-        contador++;
+        contador--;
     }
 
     return a;        
 }
 
-console.log(booleanos([true, false , 1 , 2 , 3]));
