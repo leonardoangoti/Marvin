@@ -13,7 +13,6 @@ function por42(x, y) {
     }
     
     while (min <= max) {
-        console.log(min % 42);
         if (min % 42 == 0) {
             n++;
             if (n == 2) {
