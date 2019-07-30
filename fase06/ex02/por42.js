@@ -21,6 +21,7 @@ function por42(x, y) {
         }
         min++;
     }
-
+    
+    console.log("Não encontrado");
     return false;
 }
