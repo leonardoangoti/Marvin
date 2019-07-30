@@ -1,8 +1,10 @@
 function meuNome(x){
-    nome = x.substr(0,1).toUpperCase() + x.substr(1).toLowerCase()
+    
     var eu = new Object();
-    eu.nome = nome;
+    eu = x;
+    eu.nome = eu.nome.substr(0,1).toUpperCase() + eu.nome.substr(1).toLowerCase()
     return eu.nome;
     
 }
+
 
