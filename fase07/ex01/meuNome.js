@@ -5,4 +5,3 @@ function meuNome(x){
     
 }
 
-console.log(meuNome("Leonardo"));
